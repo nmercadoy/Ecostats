@@ -1,0 +1,174 @@
+/* Estilos generales */
+
+html,
+body {
+    height: 100%;
+    /* Asegura que ocupe toda la pantalla */
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #e8f5e9;
+    /* Verde claro */
+    color: #2e7d32;
+    /* Verde oscuro */
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    /* El contenedor principal ocupa toda la altura */
+}
+
+body>div {
+    flex: 1;
+    /* Hace que el contenido principal se expanda */
+}
+
+
+/* Estilos para la barra de navegación */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b5e20;
+    /* Verde intenso */
+    padding: 15px 20px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    /* Blanco */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #c8e6c9;
+    /* Verde claro */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #a5d6a7;
+    /* Verde más claro */
+}
+
+
+/* Estilos para la página de inicio */
+
+.home {
+    text-align: center;
+    padding: 50px;
+}
+
+.home h1 {
+    font-size: 36px;
+    color: #1b5e20;
+}
+
+.home p {
+    font-size: 20px;
+    color: #4caf50;
+    /* Verde medio */
+}
+
+
+/* Estilos para las tarjetas */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+}
+
+.card h3 {
+    color: #2e7d32;
+    /* Verde oscuro */
+    margin-top: 10px;
+}
+
+.card p {
+    color: #555;
+    font-size: 16px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Estilos para la página About */
+
+.about {
+    text-align: center;
+    padding: 50px;
+}
+
+.about h1 {
+    font-size: 32px;
+    color: #1b5e20;
+}
+
+.about p {
+    font-size: 18px;
+    color: #388e3c;
+    /* Verde oscuro */
+}
+
+.footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+    color: #c8e6c9;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-links a:hover {
+    color: #81c784;
+}
+
+.fab {
+    font-size: 20px;
+    margin: 0 10px;
+}

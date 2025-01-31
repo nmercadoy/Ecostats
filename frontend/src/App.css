@@ -1,0 +1,86 @@
+/* Colores principales */
+
+:root {
+    --verde-oscuro: #2e7d32;
+    --verde-claro: #66bb6a;
+    --azul-agua: #4fc3f7;
+    --marron-tierra: #8d6e63;
+    --gris-suave: #eeeeee;
+    --blanco: #ffffff;
+    --negro: #212121;
+}
+
+
+/* Reset básico */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--gris-suave);
+    color: var(--negro);
+}
+
+
+/* Encabezado */
+
+header {
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+
+/* Contenedor principal */
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--blanco);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Botón estilo ecológico */
+
+.button {
+    background-color: var(--verde-claro);
+    color: var(--blanco);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--verde-oscuro);
+}
+
+
+/* Tarjetas de información */
+
+.card {
+    background-color: var(--azul-agua);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    color: var(--blanco);
+}
+
+
+/* Pie de página */
+
+footer {
+    background-color: var(--marron-tierra);
+    color: var(--blanco);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
