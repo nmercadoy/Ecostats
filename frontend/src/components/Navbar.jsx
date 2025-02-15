@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"; 
+
 
 const Navbar = () => {
   return (
@@ -9,10 +10,13 @@ const Navbar = () => {
           <a href="/">Inicio</a>
         </li>
         <li>
-          <a href="/about">Acerca de</a>
+          <a href="/projects">Proyectos</a>
         </li>
         <li>
           <a href="/contact">Contacto</a>
+        </li>
+        <li>
+          <a href="/login">Login</a>
         </li>
       </ul>
     </nav>
